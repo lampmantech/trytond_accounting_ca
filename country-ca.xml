@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="country.country" id="ca">
+            <field name="name">Canada</field>
+            <field name="code">CA</field>
+        </record>
+	
+        <record model="country.subdivision" id="ca-ab">
+            <field name="name">Alberta</field>
+            <field name="code">CA-AB</field>
+            <field name="type">province</field>
+            <field name="country" ref="ca"/>
+        </record>
+
+        <record model="country.subdivision" id="ca-bc">
+            <field name="name">British Columbia</field>
+            <field name="code">CA-BC</field>
+            <field name="type">province</field>
+            <field name="country" ref="ca"/>
+        </record>
+
+        <record model="country.subdivision" id="ca-mb">
+            <field name="name">Manitoba</field>
+            <field name="code">CA-MB</field>
+            <field name="type">province</field>
+            <field name="country" ref="ca"/>
+        </record>
+
+        <record model="country.subdivision" id="ca-nb">
+            <field name="name">New Brunswick</field>
+            <field name="code">CA-NB</field>
+            <field name="type">province</field>
+            <field name="country" ref="ca"/>
+        </record>
+
+        <record model="country.subdivision" id="ca-nl">
+            <field name="name">Newfoundland and Labrador</field>
+            <field name="code">CA-NL</field>
+            <field name="type">province</field>
+            <field name="country" ref="ca"/>
+        </record>
+
+        <record model="country.subdivision" id="ca-ns">
+            <field name="name">Nova Scotia</field>
+            <field name="code">CA-NS</field>
+            <field name="type">province</field>
+            <field name="country" ref="ca"/>
+        </record>
+
+        <record model="country.subdivision" id="ca-on">
+            <field name="name">Ontario</field>
+            <field name="code">CA-ON</field>
+            <field name="type">province</field>
+            <field name="country" ref="ca"/>
+        </record>
+
+        <record model="country.subdivision" id="ca-pe">
+            <field name="name">Prince Edward Island</field>
+            <field name="code">CA-PE</field>
+            <field name="type">province</field>
+            <field name="country" ref="ca"/>
+        </record>
+
+        <record model="country.subdivision" id="ca-qc">
+            <field name="name">Quebec</field>
+            <field name="code">CA-QC</field>
+            <field name="type">province</field>
+            <field name="country" ref="ca"/>
+        </record>
+
+        <record model="country.subdivision" id="ca-sk">
+            <field name="name">Saskatchewan</field>
+            <field name="code">CA-SK</field>
+            <field name="type">province</field>
+            <field name="country" ref="ca"/>
+        </record>
+
+        <record model="country.subdivision" id="ca-nt">
+            <field name="name">Northwest Territories</field>
+            <field name="code">CA-NT</field>
+            <field name="type">territory</field>
+            <field name="country" ref="ca"/>
+        </record>
+
+        <record model="country.subdivision" id="ca-nu">
+            <field name="name">Nunavut</field>
+            <field name="code">CA-NU</field>
+            <field name="type">territory</field>
+            <field name="country" ref="ca"/>
+        </record>
+    </data>
+</tryton>

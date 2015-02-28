@@ -1,0 +1,141 @@
+                          FINANCIAL MARKETS DEPARTMENT
+
+
+                            YEAR AVERAGE OF EXCHANGE RATES
+
+                                  Ottawa, 2012, Average of 251 days
+
+
+Country                            Monetary Unit                      Present Value in Canadian
+                                                                      Currency
+Argentina1                         Peso                               0.2202
+
+Argentina (local)                  Peso (53 days)                     0.2106
+
+Australia                          Dollar                             1.0353
+
+Bahamas                            Dollar                             0.9996
+
+Brazil                             Real                               0.5141
+
+Chile                              Peso                               0.002056
+
+China                              Renminbi                           0.1584
+
+Colombia                           Peso                               0.000556
+
+Communauté Financière Africaine    Franc                              0.001959
+
+Comptoirs Français du Pacifique    Franc                              0.01077
+
+Croatia                            Kuna                               0.1710
+
+Czech Republic                     Koruna                             0.05113
+
+Denmark                            Krone                              0.1726
+
+East Caribbean                     Dollar                             0.3743
+
+Europe                             Euro                               1.2850
+
+Fiji                               Dollar                             0.5584
+
+Ghana                              Cedi                               0.5412
+
+Guatemala                          Quetzal                            0.1262
+
+Honduras                           Lempira                            0.05179
+
+Hong Kong                          Dollar                             0.128861
+
+Hungary                            Forint                             0.004446
+
+Iceland                            Krona                              0.007990
+
+India                              Rupee                              0.01877
+
+Indonesia                          Rupiah                             0.000107
+
+Israel                             New shekel                         0.2594
+
+Jamaica                            Dollar                             0.01132
+
+Japan                              Yen                                0.01254
+
+Malaysia                           Ringgit                            0.3238
+
+Mexico                             Peso                               0.07602
+
+Morocco                            Dirham                             0.1158
+ Myanmar (Burma)2                         Kyat (187 days)                          0.00117
+
+ Myanmar (Burma) (fixed)                  Kyat (62 days)                           0.1814
+
+ Netherlands Antilles                     Guilder                                  0.5706
+
+ New Zealand                              Dollar                                   0.8098
+
+ Norway                                   Krone                                    0.1718
+
+ Pakistan                                 Rupee                                    0.01071
+
+ Panama                                   Balboa                                   0.9996
+
+ Peru                                     New sol                                  0.3789
+
+ Philippines                              Peso                                     0.02368
+
+ Poland                                   Zloty                                    0.3073
+
+ Romania                                  New leu                                  0.2884
+
+ Russia                                   Ruble                                    0.03222
+
+ Serbia                                   Dinar                                    0.01139
+
+ Singapore                                Dollar                                   0.8001
+
+ South Africa                             Rand                                     0.1221
+
+ South Korea                              Won                                      0.000887
+
+ Sri Lanka                                Rupee                                    0.007854
+
+ Sweden                                   Krona                                    0.1476
+
+ Switzerland                              Franc                                    1.0662
+
+ Taiwan                                   New Taiwan dollar                        0.03380
+
+ Thailand                                 Baht                                     0.03217
+
+ Trinidad & Tobago                        Dollar                                   0.1564
+
+ Tunisia                                  Dinar                                    0.6402
+
+ Turkey                                   Lira                                     0.5554
+
+ United Arab Emirates                     Dirham                                   0.2721
+
+ United Kingdom                           Pound                                    1.58399402
+
+ United States                            Dollar                                   0.99958008
+
+ Venezuela                                Bolivar fuerte                           0.2328
+
+ Vietnam                                  Dong                                     0.000048
+
+
+
+
+Nominal quotations based on official parities or market rates in terms of United States dollars, converted into Canadian
+dollars around noon Ottawa time.
+
+
+
+
+ 1. The Argentine peso (local) was terminated on 16 March 2012 and has been replaced with a new data series that
+    provides a better representation of wholesale market quotes for the currency.
+ 2. Effective 2 April 2012, the Myanmar kyat was redenominated and moved from a fixed exchange rate to a floating
+    exchange rate. Noon rates from 2 April 2012 to 23 August 2012 have been restated with representative rates to reflect
+    the change in calculation methodology.

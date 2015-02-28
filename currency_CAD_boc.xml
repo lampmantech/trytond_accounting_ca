@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+	<!-- this should be the default instead of the current year -->
+        <record id="CAD197101" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.0000')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'CAD')]"/>
+            <field name="date">1971-01-01</field>
+            </record>
+        <record id="USD1997" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.384386')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">1997-01-01</field>
+            </record>
+        <record id="USD1998" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.483103')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">1998-01-01</field>
+            </record>
+        <record id="USD1999" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.485840')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">1999-01-01</field>
+            </record>
+        <record id="USD2000" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.485202')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2000-01-01</field>
+            </record>
+        <record id="USD2001" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.548416')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2001-01-01</field>
+            </record>
+        <record id="USD2002" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.570359')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2002-01-01</field>
+            </record>
+        <record id="USD2003" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.401461')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2003-01-01</field>
+            </record>
+        <record id="USD2004" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.301520')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2004-01-01</field>
+            </record>
+        <record id="USD2005" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.211632')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2005-01-01</field>
+            </record>
+        <record id="USD2006" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.134093')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2006-01-01</field>
+            </record>
+        <record id="USD2007" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.074781')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2007-01-01</field>
+            </record>
+        <record id="USD2008" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.066014')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2008-01-01</field>
+            </record>
+        <record id="USD2009" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.141977')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2009-01-01</field>
+            </record>
+        <record id="USD2010" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.029939')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2010-01-01</field>
+            </record>
+        <record id="USD2011" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('0.989069')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2011-01-01</field>
+            </record>
+        <record id="USD2012" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('0.999580')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2012-01-01</field>
+            </record>
+        <record id="USD2013" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.029914')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2013-01-01</field>
+            </record>
+        <record id="USD2014" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.104466')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2014-01-01</field>
+            </record>
+        <record id="GBP1997" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('2.268193')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">1997-01-01</field>
+            </record>
+        <record id="GBP1998" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('2.458676')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">1998-01-01</field>
+            </record>
+        <record id="GBP1999" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('2.403767')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">1999-01-01</field>
+            </record>
+        <record id="GBP2000" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('2.249876')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2000-01-01</field>
+            </record>
+        <record id="GBP2001" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('2.229756')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2001-01-01</field>
+            </record>
+        <record id="GBP2002" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('2.358175')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2002-01-01</field>
+            </record>
+        <record id="GBP2003" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('2.288299')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2003-01-01</field>
+            </record>
+        <record id="GBP2004" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('2.384185')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2004-01-01</field>
+            </record>
+        <record id="GBP2005" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('2.206698')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2005-01-01</field>
+            </record>
+        <record id="GBP2006" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('2.088587')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2006-01-01</field>
+            </record>
+        <record id="GBP2007" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('2.148653')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2007-01-01</field>
+            </record>
+        <record id="GBP2008" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.961669')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2008-01-01</field>
+            </record>
+        <record id="GBP2009" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.780355')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2009-01-01</field>
+            </record>
+        <record id="GBP2010" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.591770')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2010-01-01</field>
+            </record>
+        <record id="GBP2011" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.586070')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2011-01-01</field>
+            </record>
+        <record id="GBP2012" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.583994')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2012-01-01</field>
+            </record>
+        <record id="GBP2013" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.611265')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2013-01-01</field>
+            </record>
+        <record id="GBP2014" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.819031')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">2014-01-01</field>
+            </record>
+        <record id="EUR1999" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.5847')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">1999-01-01</field>
+            </record>
+        <record id="EUR2000" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.3704')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2000-01-01</field>
+            </record>
+        <record id="EUR2001" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.3868')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2001-01-01</field>
+            </record>
+        <record id="EUR2002" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.4832')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2002-01-01</field>
+            </record>
+        <record id="EUR2003" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.5826')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2003-01-01</field>
+            </record>
+        <record id="EUR2004" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.6169')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2004-01-01</field>
+            </record>
+        <record id="EUR2005" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.5090')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2005-01-01</field>
+            </record>
+        <record id="EUR2006" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.4237')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2006-01-01</field>
+            </record>
+        <record id="EUR2007" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.4691')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2007-01-01</field>
+            </record>
+        <record id="EUR2008" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.5603')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2008-01-01</field>
+            </record>
+        <record id="EUR2009" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.5855')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2009-01-01</field>
+            </record>
+        <record id="EUR2010" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.3661')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2010-01-01</field>
+            </record>
+        <record id="EUR2011" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.3767')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2011-01-01</field>
+            </record>
+        <record id="EUR2012" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.2850')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2012-01-01</field>
+            </record>
+        <record id="EUR2013" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.3681')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2013-01-01</field>
+            </record>
+        <record id="EUR2014" model="currency.currency.rate">
+            <field name="rate" eval="Decimal('1.4671')"/>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2014-01-01</field>
+            </record>
+    </data>
+</tryton>

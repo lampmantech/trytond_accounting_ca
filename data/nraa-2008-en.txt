@@ -1,0 +1,130 @@
+                          FINANCIAL MARKETS DEPARTMENT
+
+
+                            YEAR AVERAGE OF EXCHANGE RATES
+
+                                  Ottawa, 2008, Average of 252 days
+
+
+Country                            Monetary Unit                      Present Value in Canadian
+                                                                      Currency
+Argentina (local)                  Peso                               0.3319
+
+Australia                          Dollar                             0.9002
+
+Bahamas                            Dollar                             1.0660
+
+Brazil                             Real                               0.5868
+
+Chile                              Peso                               0.002057
+
+China                              Renminbi                           0.1536
+
+Colombia                           Peso                               0.000544
+
+Communauté Financière Africaine    Franc                              0.002379
+
+Comptoirs Français du Pacifique    Franc                              0.01308
+
+Croatia                            Kuna                               0.2160
+
+Czech Republic                     Koruna                             0.06259
+
+Denmark                            Krone                              0.2093
+
+East Caribbean                     Dollar                             0.4040
+
+Europe                             Euro                               1.5603
+
+Fiji                               Dollar                             0.6701
+
+Ghana                              Cedi                               0.9865
+
+Guatemala                          Quetzal                            0.1410
+
+Honduras                           Lempira                            0.05641
+
+Hong Kong                          Dollar                             0.136931
+
+Hungary                            Forint                             0.006215
+
+Iceland                            Krona                              0.01264
+
+India                              Rupee                              0.02458
+
+Indonesia                          Rupiah                             0.000111
+
+Israel                             New shekel                         0.2974
+
+Jamaica                            Dollar                             0.01466
+
+Japan                              Yen                                0.01037
+
+Malaysia                           Ringgit                            0.3195
+
+Mexico                             Peso                               0.09587
+
+Morocco                            Dirham                             0.1375
+
+Myanmar (Burma) (fixed)            Kyat                               0.1976
+ Netherlands Antilles                     Guilder                                  0.5990
+
+ New Zealand                              Dollar                                   0.7547
+
+ Norway                                   Krone                                    0.1900
+
+ Pakistan                                 Rupee                                    0.01515
+
+ Panama                                   Balboa                                   1.0660
+
+ Peru                                     New sol                                  0.3642
+
+ Philippines                              Peso                                     0.02400
+
+ Poland                                   Zloty                                    0.4456
+
+ Romania                                  New leu                                  0.4241
+
+ Russia                                   Ruble                                    0.04285
+
+ Serbia                                   Dinar                                    0.01918
+
+ Singapore                                Dollar                                   0.7525
+
+ Slovakia                                 Koruna                                   0.04999
+
+ South Africa                             Rand                                     0.1299
+
+ South Korea                              Won                                      0.000979
+
+ Sri Lanka                                Rupee                                    0.009836
+
+ Sweden                                   Krona                                    0.1623
+
+ Switzerland                              Franc                                    0.9840
+
+ Taiwan                                   New Taiwan dollar                        0.03377
+
+ Thailand                                 Baht                                     0.03229
+
+ Trinidad & Tobago                        Dollar                                   0.1718
+
+ Tunisia                                  Dinar                                    0.8650
+
+ Turkey                                   Lira                                     0.8207
+
+ United Arab Emirates                     Dirham                                   0.2902
+
+ United Kingdom                           Pound                                    1.96166905
+
+ United States                            Dollar                                   1.06601429
+
+ Venezuela                                Bolivar fuerte                           0.4964
+
+ Vietnam                                  Dong                                     0.000065
+
+
+
+
+Nominal quotations based on official parities or market rates in terms of United States dollars, converted into Canadian
+dollars around noon Ottawa time.

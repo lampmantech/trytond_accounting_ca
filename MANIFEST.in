@@ -1,0 +1,8 @@
+include Makefile
+include *.txt
+include *.md
+include *.py
+include tryton.cfg
+include *.xml
+include data/*.*
+include net/*.*
