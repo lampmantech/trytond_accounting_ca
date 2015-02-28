@@ -5,7 +5,7 @@ CA accounting basics (not chart) for Tryton ERP
 ===============================================
 
 This module does NOT provides a chart of accounts or taxes.  The name
-for this module is NOT trytond_account_ca to imply that it provides UK
+for this module is NOT trytond_account_ca to imply that it provides
 Canadian accounting information, but not a chart of accounts.
 
 We consider it to be a fundamental error in OpenERP and Tryton 
@@ -24,7 +24,8 @@ the official currency exchange rate information, and other legally mandated
 accounting information. For example in Canada, as in other countries, 
 there are official government exchange rates that must be used if
 your accounting is to pass with the government (CRA). The official
-exchange rates also vary with  the periods between setting the rates (not always monthly).
+exchange rates also vary with  the periods between setting the rates
+(not always monthly).
 These exchange rates should be in trytond_accounting_ca and each chart in
 trytond_chart_ca_<source>, where each chart depends on trytond_accounting_ca.
 
@@ -32,7 +33,7 @@ trytond_chart_ca_<source>, where each chart depends on trytond_accounting_ca.
 the company currency is CAD. It assumes that the GBP EUR USD and CAD
 currencies are already defined.**
 
-Medium term, it is likely that the Chart of Taxes (CoT) for VAT and tax
+Medium term, it is likely that the Chart of Taxes (CoT) for PST/GST and tax
 rules for the CA should also be refactored into this module from the
 different CoA modules. Although there are an infinite number of ways
 to do CoAs depending on the business, there's really only one way per
@@ -44,20 +45,33 @@ and do so for every company in the country when they do.  Obviously
 there is information the CoTs need from the CoAs, but this could use a
 simple config file to specify the required interface information.
 
+There is a chart of taxes for Canada and its provinces by Openlabs:
+  http://github.com/openlabs/trytond-account-ca
+in tax_ca.xml. Idealy, we would like to see the tax part of that file
+moved to this module, and that module renamed to
+  http://github.com/openlabs/trytond_accounting_ca_chart_openlabs
+and made to be dependent on this module. A liitle documentation should
+explain how to wire up the accounts from the chart of taxes to the
+chart of taxes, but it's relatvely straightfoward.
+
 Long term, all Tryton CoAs should be refactored into these country
 accounting modules trytond_accounting_??, with the CoTs pulled out of
 the CoAs and unified, and the CoAs made to depend on the country
 modules. Then in countries with regional taxes and reporting rules,
-like Canada/Provinces or US/States, you could expect to see provincial
+like Canada/Provinces or US/States, you might expect to see provincial
 or state accounting modules like `trytond_accounting_ca_on`,
 `trytond_accounting_ca_pq` etc. that each depend on `trytond_accounting_ca`
-for the federal tax rules.  You will have to deal with this if Tryton
+for the federal tax rules. Openlabs has set up a single tax file with each of
+the provinces, but there's no documentation to say if this has been
+checked by accountants in each province, epecially Quebec. You will have
+to deal with these issues, and have them checked if Tryton
 is ever to be used for legally acceptable accounting in those countries.
 
 **THIS IS A WORK IN PROGRESS, UNRELEASED FOR NOW!**
 
-The exchange rates in `currency_CAD_cra.xml` are from
-http://www.bankofcanada.ca and copies are in `data/`
-so you can check the numbers, or add more rates.
+The exchange rates in `currency_CAD_boc.xml` are from
+  http://www.bankofcanada.ca
+and text copies are in `data/` so that you can check the numbers, or add more.
+There's a little data.sh script to download more years or extract more currencies.
 
 This module is provided as-is, without any warranties, under the GPLv3 license.

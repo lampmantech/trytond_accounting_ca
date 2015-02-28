@@ -1,14 +1,16 @@
 #!/bin/sh
 
+# Revenue Canada says get the exchange rates from the
+# Exchange Rates page of the Bank of Canada Web site.
+# Http://www.cra-arc.gc.ca/tx/ndvdls/fq/xchng_rt-eng.html
+
 [ -d net/Http ] || mkdir -p net/Http
 
 # download the years that you want into net/Http: e.g.
 [ -f net/Http/www.bankofcanada.ca/stats/assets/pdf/nraa-2014-en.pdf ] ||
     wget -xc -P net/Http/ http://www.bankofcanada.ca/stats/assets/pdf/nraa-2014-en.pdf
-# Revenue Canada says get the exchange rates from the
-# Exchange Rates page of the Bank of Canada Web site.
-# Http://www.cra-arc.gc.ca/tx/ndvdls/fq/xchng_rt-eng.html
 
+# convert the pdf to text
 for file in net/Http/www.bankofcanada.ca/stats/assets/pdf/nraa-*pdf ; do
     basename=`basename $file .pdf`
     [ -f data/$basename.txt ] && continue
