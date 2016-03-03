@@ -47,12 +47,12 @@ simple config file to specify the required interface information.
 
 There is a chart of taxes for Canada and its provinces by Openlabs:
   http://github.com/openlabs/trytond-account-ca
-in tax_ca.xml. Idealy, we would like to see the tax part of that file
+in tax_ca.xml. Ideally, we would like to see the tax part of that file
 moved to this module, and that module renamed to
   http://github.com/openlabs/trytond_accounting_ca_chart_openlabs
-and made to be dependent on this module. A liitle documentation should
+and made to be dependent on this module. A little documentation should
 explain how to wire up the accounts from the chart of taxes to the
-chart of taxes, but it's relatvely straightfoward.
+chart of taxes, but it's relatively straightforward.
 
 Long term, all Tryton CoAs should be refactored into these country
 accounting modules trytond_accounting_??, with the CoTs pulled out of
@@ -63,7 +63,7 @@ or state accounting modules like `trytond_accounting_ca_on`,
 `trytond_accounting_ca_pq` etc. that each depend on `trytond_accounting_ca`
 for the federal tax rules. Openlabs has set up a single tax file with each of
 the provinces, but there's no documentation to say if this has been
-checked by accountants in each province, epecially Quebec. You will have
+checked by accountants in each province, especially Quebec. You will have
 to deal with these issues, and have them checked if Tryton
 is ever to be used for legally acceptable accounting in those countries.
 

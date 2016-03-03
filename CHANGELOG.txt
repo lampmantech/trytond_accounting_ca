@@ -1,3 +1,8 @@
+commit 8dfa86cfb1ab894964e128c4345ffcb4660e7206
+Date:   Sat Feb 28 20:29:40 2015 +0200
+
+    Updated README
+
 commit 9af9cb9174fad137f21d7ac3387d18710b3d5cec
 Date:   Sat Feb 28 20:06:16 2015 +0200
 
